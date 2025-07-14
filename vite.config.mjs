@@ -1,4 +1,5 @@
 import { resolve } from 'path'
+import preact from '@preact/preset-vite'
 
 export default {
   root: resolve(__dirname, 'src'),
@@ -11,6 +12,7 @@ export default {
   preview: {
     port: 8080
   },
-  build: {},
-  plugins: []
+  plugins: [
+    preact()
+  ]
 }
