@@ -29,7 +29,7 @@ export default class App extends Component {
           <Col className="justify-content-center d-flex text-center">
             <Patrol name="Super Scout Bros" description="Please don't tell Nintendo" />
           </Col>
-<Col>
+<Col className="justify-content-center d-flex text-center">
 <Patrol name="Newbies" description="New Scouts" />
 </Col>
         </Row>
