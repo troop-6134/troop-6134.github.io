@@ -18,7 +18,7 @@ export default class App extends Component {
         <div className="mx-auto">
           <Card style={{ width: '18rem' }}>
             <Card.Title className="text-center">Senior Patrol Leader</Card.Title>
-            <Card.Subtitle className="text-center">[Anonymous]</Card.Subtitle>
+            <Card.Subtitle className="text-center">Riley Brinkley</Card.Subtitle>
           </Card>
         </div>
         <h2 className="text-center">Patrols</h2>
