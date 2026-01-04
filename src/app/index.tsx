@@ -24,11 +24,14 @@ export default class App extends Component {
         <h2 className="text-center">Patrols</h2>
         <Row>
           <Col className="justify-content-center d-flex text-center">
-            <Patrol name="Icy Steppas" description="" />
+            <Patrol name="Icy Steppas" description="We are the Icy Steppas. Welcome to our gang." />
           </Col>
           <Col className="justify-content-center d-flex text-center">
-            <Patrol name="Super Scout Bros" description="" />
+            <Patrol name="Super Scout Bros" description="Please don't tell Nintendo" />
           </Col>
+<Col>
+<Patrol name="Newbies" description="New Scouts" />
+</Col>
         </Row>
         <footer className="mt-auto mx-auto">
           <Footer />
